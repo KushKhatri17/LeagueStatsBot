@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { MessageEmbed } = require('discord.js');
 const { MessageAttachment } = require('discord.js');
