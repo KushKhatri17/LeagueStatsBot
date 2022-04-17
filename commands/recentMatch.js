@@ -1,6 +1,3 @@
-/* eslint-disable no-inner-declarations */
-/* eslint-disable no-inline-comments */
-/* eslint-disable no-unused-vars */
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { MessageEmbed, MessageAttachment } = require('discord.js');
 const fetch = require('node-fetch');
