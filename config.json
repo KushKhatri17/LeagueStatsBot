@@ -1,0 +1,6 @@
+{
+  'clientId': "your-discord-bot-id",
+  'guildId': "your-server-id",
+  'token': "discord-bot-token",
+  'riotToken': "riot-developer-token"
+}
