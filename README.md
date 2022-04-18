@@ -1,7 +1,7 @@
 # LeagueStatsBot
 
 ## Description
-A simple discord bot which provides a player's league of legends information and other basic user's discord information. Created using the discord.js library and Riot's API.
+A simple discord bot which provides a player's league of legends information and other basic user's discord information. Created using Node.js and the discord.js library along with Riot's API.
 
 ### Commands currently implemented
 1. info user: Gets the information about a user's discord account
@@ -15,6 +15,8 @@ A simple discord bot which provides a player's league of legends information and
 Firstly, to use the bot clone this repo and edit the values in the `config.json` file to change the values to your API keys. The `.gitignore` file includes `config.json`
 and it should be kept in there if you decide to upload your repo to github or other public site. I recommned following the guide provided by discord.js at, 
 https://discordjs.guide/preparations/setting-up-a-bot-application.html to get started with the bot. 
+
+Once the bot is in your discord server, use `node deploy-command.js` and then `node bot.js` to bring the bot online. Once the `bot.js` stops executing, the bot will go offline. If you add a new command or edit a command, you will need to call `node deploy-command.js` before `bot.js` to get the commands to show up discord.
 
 The bot currently uses data from patch 12.7.1 to get all the champion information. In the future you might need to update the `champion` folder and the `champion.json` file 
 depending on the latest version released by Riot. You can check the lastet version at, https://developer.riotgames.com/docs/lol#data-dragon_champions and download the 
