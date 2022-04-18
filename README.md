@@ -1,7 +1,10 @@
 # LeagueStatsBot
 
 ## Description
-A simple discord bot which provides a player's league of legends information and other basic user's discord information. Created using Node.js and the discord.js library along with Riot's API.
+A simple discord bot which provides a player's league of legends information and other basic user's discord information. Created using :
+1. Node.js, https://nodejs.org/en/
+2. discord.js, https://discord.js.org/#/
+3. Riot Games API, https://developer.riotgames.com/apis
 
 ### Commands currently implemented
 1. info user: Gets the information about a user's discord account
