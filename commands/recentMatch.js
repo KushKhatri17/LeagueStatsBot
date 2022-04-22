@@ -22,7 +22,7 @@ module.exports = {
         const username = interaction.options.getString('name');
         const initalUserDataURL = `https://euw1.api.riotgames.com/lol/summoner/v4/summoners/by-name/${username}?api_key=${riotToken}`;
 
-		const response = await fetch(initalUserDataURL);
+	const response = await fetch(initalUserDataURL);
         const data = await response.json();
         if ('status' in data) {
             console.log('player not found');
@@ -87,6 +87,10 @@ module.exports = {
                                 playerSummoners.push(allSummonerSpells[key].name);
                             }
                         });
+			/**
+			* Not all the player fields are used here, these are just all the important player fields one might be interested in.
+			* Edit the createInfoField function to add/remove fields of your choice.
+			*/
                         const playerInfo = {
                             'playerName': player.summonerName,
                             'playerChampion': player.championName,
