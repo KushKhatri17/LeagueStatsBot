@@ -30,5 +30,5 @@ If you decide to add to the bot and use a development API Key, then you will nee
 file.
 
 #### Discord
-If you would like to ask any questions about the bot you can reach out to me on discord: `Xezc#6831`
+If you would like to ask any questions about the bot you can reach out to me on discord: `Xezc#6831`  <br>
 *Currently not maintaing this project but happy to answer any questions regarding its current iteration.*
