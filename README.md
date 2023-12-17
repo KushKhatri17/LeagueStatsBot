@@ -31,4 +31,4 @@ file.
 
 #### Discord
 If you would like to ask any questions about the bot you can reach out to me on discord: `Xezc#6831`  <br>
-*Currently not maintaing this project but happy to answer any questions regarding its current iteration.*
+*Currently not maintaining this project but happy to answer any questions regarding its current iteration.*
